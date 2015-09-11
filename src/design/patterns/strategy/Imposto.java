@@ -4,7 +4,7 @@ package design.patterns.strategy;
  *
  * @author paulo
  */
-interface Imposto {
+public interface Imposto {
     
     double calcula(Orcamento orcamento);
     
