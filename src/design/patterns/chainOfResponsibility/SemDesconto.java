@@ -1,5 +1,7 @@
 package design.patterns.chainOfResponsibility;
 
+import design.patterns.strategy.Orcamento;
+
 /**
  * Classe terminal que sinaliza que não existe mais descontos para ser aplicado.
  * 
