@@ -1,0 +1,11 @@
+Design Patterns: State
+
+* Quando se tem objetos cujas as ações variam conforme o estado interno do mesmo,
+podemos separar estes estados em diferentes classes que são menores e mais fáceis
+de serem entendidas.
+
+* O objeto principal conterá um estado e apenas repassará as suas ações para este
+estado que definirá o conportamento a ser executado e as possíveis transições. 
+
+* Para criar novos estados agora, basta apenas criar uma nova classe que implementa
+a interface "EstadosDeUmOrcamento", não tendo mais a necessidade do uso dos ifs.
