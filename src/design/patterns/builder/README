@@ -1,0 +1,7 @@
+Design Patterns: Builder
+
+* Quando temos um objeto que é complexo e complicado de ser criado, criamos uma classe
+que esconde toda esta complexidade e classe possuirá apenas a responsabilidade de fazer isso.
+
+A idéia de esconder o processo de criação de objetos complexos chamamos de Buider e este é o nome
+do design patters que visa resolver o problema da criação de objetos complexos.
