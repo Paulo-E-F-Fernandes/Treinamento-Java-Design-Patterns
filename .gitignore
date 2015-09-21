@@ -2,4 +2,6 @@
 build.xml
 manifest.mf
 nbproject/
-
+bin/*
+.project
+.classpath
