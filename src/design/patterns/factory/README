@@ -1,0 +1,14 @@
+Design Patterns: Factory
+
+* OBJETIVO: Facilitar a criação de objetos que são complexos ou que possuem muitas informações que podem
+mudar durante o tempo, com isso a criação do objeto é centralizada e desta forma ao trocar as informações
+não é necessário buscar em todo o projeto para trocar essas informações.
+
+* O design patterns Builder possui o mesmo objeto, então qual é a diferença entre Factory e Builder?
+	O Builder facilita a criação de objetos que recebem muitos parâmetros, sendo que estes parâmetros mudam de 
+objeto para objeto, como uma nota fiscal, que é gerada para diversas empresas diferentes. Builders criam objetos
+diferentes e que podem mudar durante a aplicação.
+	Já a Factory facilita a criação de objetos nos quais os parâmetros são sempre os mesmos, centraliando a criação 
+dos mesmos com as mesmas informações, podendo haver alteração nas informações de tempos em tempos, como por exemplo
+o usuário e senha de um banco de dados, mas todos os objetos criados teram as mesmas informações. Factories criam
+objetos que não mudam durante a aplicação.
