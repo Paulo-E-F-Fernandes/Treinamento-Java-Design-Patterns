@@ -1,0 +1,8 @@
+Design Patterns: Observer
+
+* Quando temos ações que devem ser executadas após um comportamento, chamamos estas ações de observadores.
+A classe após efetuar a ação evoca esse observadores. Esse é o padrão Observer.
+
+* A vantagem deste padrão é o grande desaclopamento que temos nas classes, sendo que a mesma dependendo
+apenas da interface criada. Agora para adicionar novas ações ficou muito fácil, é apenas adicionar a ação
+na lista de ações.
