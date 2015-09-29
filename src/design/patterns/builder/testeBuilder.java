@@ -1,14 +1,10 @@
 package design.patterns.builder;
 
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.List;
-
 /**
  *
  * @author paulo
  */
-public class testeBuilder {
+public class TesteBuilder {
 
     /**
      * @param args the command line arguments
