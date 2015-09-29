@@ -1,0 +1,7 @@
+Design Patterns: Factory
+
+* OBJETIVO: Ajuda a resolver o problema de instanciar diversos objetos parecidos, guardando uma 
+instância do objeto e sempre retornando a mesma instância, sem criar uma nova.
+
+Quando precisamos instanciar muitos objetos parecidos e para não termos gasto de memória desnecessária,
+utilizamos sempre os mesmos objetos para quem vai utilizar.
