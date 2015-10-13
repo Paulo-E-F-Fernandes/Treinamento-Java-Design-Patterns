@@ -1,0 +1,7 @@
+Design Patterns: Memento
+
+* OBJETIVO: Ajudar a resolver o problema de guardar o histórico dos objetos e seus estados em um determinado
+momento.
+
+Quando precisamos recuperar informações passadas de um objeto criamos uma lista com o histórico dos estados
+deste objeto e desta forma podemos retroceder a estados anteriores do mesmo.
