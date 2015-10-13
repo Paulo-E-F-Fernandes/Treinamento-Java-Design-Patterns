@@ -1,0 +1,4 @@
+Design Patterns: Interpreter
+
+* OBJETIVO: A idéia do design patterns é termos uma árvore e ela se auto-avaliar e no final retornar o
+resultado .
