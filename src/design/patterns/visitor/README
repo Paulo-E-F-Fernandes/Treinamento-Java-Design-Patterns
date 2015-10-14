@@ -1,0 +1,11 @@
+Design Patterns: Visitor
+
+* OBJETIVO: A idéia do design patterns é termos uma árvore e navegar na mesma para montar outras informações
+outras estruturas de dados, imprimir alguma informação, etc.
+
+DIFERENÇA DO INTERPRETER E VISITOR: Ambos visitam a árvore, mas o objetivo do Interpreter é interpretar 
+a árvore e retornar um resultado final, enquanto que o Visitor tem o objetivo de percorrer a árvore 
+para guardar informações, montar outras estruturas de dados, imprimir informações, etc.
+
+Exemplo de uso do Visitor:
+O Hibernate utiliza o Visitor para pegar a HQL escrita e converter em SQL.
