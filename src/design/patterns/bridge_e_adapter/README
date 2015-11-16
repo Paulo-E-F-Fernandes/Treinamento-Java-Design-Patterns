@@ -1,0 +1,15 @@
+Design Patterns: Bridges e Adapter
+
+* OBJETIVO: A idéia destes design patterns é centralizar e esconder a complexidade necessário
+	para a utilização de sistemas de terceiros e código que não foram escritos por nós.
+	
+BRIDGE: Quando temos um sistema externo, por exemplo, o GoogleMaps, MapLink,... e nossa aplicação
+	necessita acessar estes sistemas externos, utilizamos o Design Patterns Bridge para criar esta
+	ponte de acesso entre o nosso sistema e o sistema externo. Através desta ponte gerada, diversas
+	partes do nosso sistema possui uma maneira centralizada para acessar a aplicação externa.
+
+ADAPTER: Quando utilizamos um sistema ou API legada, para escondermos a complexidade de acessar e 
+	utilizar estes sistemas e APIs, podemos utilizar uma interface que vai fazer a adaptação do 
+	sistema legado para o nosso sistema. Muito útil quando estamos reescrevendo um sistema legado.
+	
+	
