@@ -1,0 +1,11 @@
+Design Patterns: Command
+
+* OBJETIVO: A idéia destes design patterns é encapsular um comando que será executado no futuro.
+	A implementação geralmente possui uma interface Comando para abstrair o encapsulamento e esta
+	interface possui um método simples para executar e a própria classe recebe pelo construtor o que 
+	precisa e invocar o comando certo.
+	
+EXEMPLO DE APLICAÇÃO: Uma fila de trabalho com diferentes ações a serem executadas em diferentes 
+	momentos e estas ações são encapsuladas em comandos sendo que em algum momentos todos eles são 
+	executados.	
+	
