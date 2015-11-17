@@ -1,0 +1,33 @@
+Design Patterns: Façade e Singleton
+
+FAÇADE: Quando temos um sistema grande que controla todas as atividades da empresa, como por
+	exemplo, o controle de cliente, de faturas, de cobranças, de contato,... o sistema precisará 
+	lidar com muito dados diferentes executando diversas lógicas complexas e se temos um outro 
+	sistema que necessite consumir todos estes recursos e fazer com que o sistema externo conheça 
+	cada uma das interfaces pode ser complicado.
+	
+	Já que não é necessário ao sistema externo conhecer várias classes diferentes o design patterns
+	Façade sugere que tenhamos uma classe de façada da empresa para todos os serviços que a empresa
+	oferece.
+	
+	VANTAGEM: A classe façade tem todas as chamadas para os métodos do sistema e agora o sistema 
+		externo que consumira a lógica do sistema principal da empresa, precisa conhecer apenas uma
+		classe, a façade, e com ela acessar diversos serviços oferecidos pela empresa. A façade é
+		uma interface única para todo mundo chegar ao mesmo sistema.
+	
+	DESVANTAGEM: O problema da façade é que a classe fica gigante e por vezes o desenvolvedor 
+					implementa uma regra de negócio no façade, algo que não deve acontecer pois, as
+					regras de negócio devem ficar dentro das classes de domínio. O Façade deve ser
+					evitado por estes motivos.
+
+SINGLETON: Quando precisamos ter uma única instância de um objeto no nosso sistema. Onde criamos 
+			apenas um atributo estático e guardamos ele, depois retorna sempre o mesmo objeto quando
+			algum solicitar.
+
+	VANTAGEM: O sistema terá uma instância única do mesmo objeto, não sendo necessária a criação de 
+				um novo objeto a cada vez que é necessário utilizar o objeto.
+
+	DESVANTAGEM: O Singleton é criticado por ser uma maneira que criar um variável global no sistema,
+					tendo uma instância única que navega pelo sistema inteiro, tendo um estado que 
+					neste objeto que valerá para todo o sistema. A idéia é modelar o sistema de outra
+					maneira para evitar o Singleton.
